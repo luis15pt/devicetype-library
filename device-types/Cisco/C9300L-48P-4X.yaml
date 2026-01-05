@@ -10,6 +10,8 @@ console-ports:
     type: rj-45
   - name: usb
     type: usb-mini-b
+front_image: true
+rear_image: true
 interfaces:
   - name: GigabitEthernet1/0/1
     type: 1000base-t
@@ -224,5 +226,8 @@ module-bays:
   - name: PS-B
     position: B
   - name: FAN 1
+    position: '1'
   - name: FAN 2
+    position: '2'
   - name: FAN 3
+    position: '3'
